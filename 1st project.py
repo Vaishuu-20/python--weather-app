@@ -10,7 +10,7 @@ youstr = input("enter a choice:")
 youDist = {"s":1,"w":-1,"g":0}
 reverseDict ={1:"snake",-1:"water",0:"gun"}
 
-you=youDist[youstr]
+you=int(youstr)
 #by now we have 2 number (variables),you and computer
 print(f"you chose{reverseDict[you]}\n computer chose {reverseDict[computer]}")
 
